@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Add Product</title>
+</head>
+
+<body>
+  <%-include('Nav')-%>
+    <div class='addProduct'>
+      <h1 style="margin-left: 10px;">Add Product</h1>
+      <input class='input' id="name" type="text" placeholder='Enter Name'></input>
+      <input class='input' id="price" type="text" placeholder='Enter Price'></input>
+      <input class='input' id="category" type="text" placeholder='Enter Category'></input>
+      <input class='input' id="company" type="text" placeholder='Enter Company'></input>
+
+      <button class='regBtn add_product'>Add Product</button>
+    </div>
+    <%-include('Footer')-%>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script type="text/javascript" src="script/script.js"></script>
+</body>
+
+</html>
